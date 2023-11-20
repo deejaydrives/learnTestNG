@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-21T18:22:13 IST" name="Suite1" finished-at="2023-09-21T18:22:16 IST" duration-ms="3842">
+    <groups>
+    </groups>
+    <test started-at="2023-09-21T18:22:13 IST" name="Chrome1" finished-at="2023-09-21T18:22:15 IST" duration-ms="2671">
+      <class name="tests.HomePage">
+        <test-method signature="HomePageTitleVerification()[pri:0, instance:tests.HomePage@1c7696c6]" started-at="2023-09-21T18:22:13 IST" name="HomePageTitleVerification" finished-at="2023-09-21T18:22:15 IST" duration-ms="2596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleVerification -->
+      </class> <!-- tests.HomePage -->
+    </test> <!-- Chrome1 -->
+    <test started-at="2023-09-21T18:22:15 IST" name="Chrome2" finished-at="2023-09-21T18:22:16 IST" duration-ms="1074">
+      <class name="tests.HomePage">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:tests.HomePage@202b0582]" started-at="2023-09-21T18:22:08 IST" name="beforeTest" finished-at="2023-09-21T18:22:13 IST" duration-ms="4280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="HomePageTitleVerification()[pri:0, instance:tests.HomePage@202b0582]" started-at="2023-09-21T18:22:15 IST" name="HomePageTitleVerification" finished-at="2023-09-21T18:22:16 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleVerification -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:tests.HomePage@202b0582]" started-at="2023-09-21T18:22:16 IST" name="afterTest" finished-at="2023-09-21T18:22:17 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- tests.HomePage -->
+    </test> <!-- Chrome2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
